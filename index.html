@@ -10,6 +10,13 @@
 </head>
 
 <body style="background:url('sp.jpg')no-repeat center center; background-size: cover;">
+
+  <div class="main-header" style="position: relative; display: flex; align-items: center; justify-content: center; padding: 20px 0;">
+    <!-- โลโก้ที่สามารถกดได้ -->
+    <div class="logo-container" onclick="goToHome()" style="position: absolute; left: 50px; z-index: 1000; cursor: pointer; transition: transform 0.3s ease;">
+      <img src="Logo.png" alt="DOO HNUNG GUN Logo" width="300" height="250">
+    </div>
+    
 <h1 style="background: linear-gradient(to right, #016cf8, #0189be, #03c7ce, #02d4a7);
   color: #000;font-size:300%;text-align:center;width: 100%; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;">DOO HNUNG GUN</h1>
 
@@ -64,6 +71,18 @@
       <p style="color: white; font-size: 16px;">
           เรื่องย่อ Spider-Man 2 2004 เล่าเรื่องราวของปีเตอร์ ปาร์คเกอร์ ที่ต้องเผชิญกับความขัดแย้งระหว่างชีวิตส่วนตัวกับการเป็นฮีโร่ในชุดสไปเดอร์แมน ในขณะเดียวกัน ดร.อ็อตโต อ็อกเทเวียส หรือ ด็อกเตอร์อ็อค ได้กลายเป็นวายร้ายหลังจากเกิดอุบัติเหตุจากการทดลอง และต้องเผชิญหน้ากับสไปเดอร์แมน         </p>
     </div>
+
+  <script>
+    function goToHome() {
+      // ไปหน้าแรก - เปลี่ยนเป็นชื่อไฟล์หน้าแรกของคุณ
+      window.location.href = 'https://natdanai183.github.io/-/';
+      
+      // หรือถ้าต้องการไปหน้าอื่นๆ ให้เปลี่ยน URL:
+      // window.location.href = 'homepage.html';
+      // window.location.href = 'main.html';
+      // window.location.href = 'home.php';
+    }
+  </script>
 
 </body>
 </html>
